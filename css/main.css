@@ -1,0 +1,13 @@
+.courses {
+  background: black;
+  padding: 8px;
+}
+
+.course_info_name {
+  font-size: 18px;
+  color: #ffffff
+}
+
+a {
+    color: white
+}
