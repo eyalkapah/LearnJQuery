@@ -1,13 +1,52 @@
-.courses {
-  background: black;
+body {
+  font-family: Gotham SSm A, Gotham SSm B, Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif;
+}
+
+div.courses {
   padding: 8px;
 }
 
-.course_info_name {
+div.course_info {
+  margin: 0 0 0 10px;
+}
+div.course_info_name {
   font-size: 18px;
-  color: #ffffff
+  color: #ffffff;
 }
 
-a {
-    color: white
+ul.courses_list_container {
+  background: #181818;
+}
+
+li.list-group-item {
+  background: transparent;
+  border-color: #363636;
+}
+
+li {
+  padding: 8px 0px 8px 0px;
+  background: #181818;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+li:hover {
+  background: #272727;
+}
+
+div.course_info_details {
+  font-size: 12px;
+  color: white;
+}
+
+div.flex-container {
+  display: flex;
+  justify-content: left;
 }
